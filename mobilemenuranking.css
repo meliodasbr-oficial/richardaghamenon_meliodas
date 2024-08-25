@@ -1,0 +1,48 @@
+:root {
+    font-size: 16px;
+    --royal-blue-light: #404eed;
+    --royal-blue-dark: #3946d4;
+    --white: #fff;
+    --background: #e2e3e9;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: url(background.png) center;
+    background-size: cover;
+    background-attachment: fixed;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  a {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 22px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(55, 55, 55);
+    z-index: 1000;
+  }
+  
+  header .logo {
+  font-size: 24px;
+  color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
